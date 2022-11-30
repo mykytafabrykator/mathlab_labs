@@ -1,0 +1,157 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mykyta/Documents/MATLAB/lab_2/float/simulation/modelsim
+vCALC_MAGNITUDE_AND_PHASE_FLOAT
+Z1 !s110 1669828537
+!i10b 1
+!s100 `Sd@N0ERK@Z0NJGVNG`Hl2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ILWOZ2]]iNiT=cOia6<aNP1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1669827933
+8C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT.v
+FC:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT.v
+!i122 4
+L0 42 273
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1669828537.000000
+!s107 C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT|C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT
+Z9 tCvgOpt 0
+n@c@a@l@c_@m@a@g@n@i@t@u@d@e_@a@n@d_@p@h@a@s@e_@f@l@o@a@t
+vCALC_MAGNITUDE_AND_PHASE_FLOAT_tb
+R1
+!i10b 1
+!s100 `iKQ<h<<Z6VnUbod=]WH<1
+R2
+ImlG86<U3VW:R5n=AH7j=C1
+R3
+R0
+w1669828363
+8C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v
+FC:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v
+!i122 5
+L0 42 721
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT|C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v|
+!i113 1
+R7
+R8
+R9
+n@c@a@l@c_@m@a@g@n@i@t@u@d@e_@a@n@d_@p@h@a@s@e_@f@l@o@a@t_tb
+vnfp_add_single
+R1
+!i10b 1
+!s100 Ln0iOMk<jh_j8k1>Vb_?;0
+R2
+Ii11G@KaC32Vzfg`bY3CFb0
+R3
+R0
+R4
+8C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_add_single.v
+FC:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_add_single.v
+!i122 3
+L0 23 2708
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_add_single.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT|C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_add_single.v|
+!i113 1
+R7
+R8
+R9
+vnfp_atan2_single
+R1
+!i10b 1
+!s100 Hi`K5ZXNz^ClzYDZ`R;o<2
+R2
+I3^V5`DfgaFfPMT;c0HngH3
+R3
+R0
+R4
+8C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_atan2_single.v
+FC:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_atan2_single.v
+!i122 2
+L0 23 7602
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_atan2_single.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT|C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_atan2_single.v|
+!i113 1
+R7
+R8
+R9
+vnfp_mul_single
+R1
+!i10b 1
+!s100 RniS5of7^hdI4B:CM5_nX3
+R2
+IKd]D>;k_o5K14e^2Q0W9P1
+R3
+R0
+R4
+8C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_mul_single.v
+FC:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_mul_single.v
+!i122 1
+L0 24 1194
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_mul_single.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT|C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_mul_single.v|
+!i113 1
+R7
+R8
+R9
+vnfp_sqrt_single
+R1
+!i10b 1
+!s100 ?G_>K?L9FlB]afZXC_=6F0
+R2
+IbBS:@FIDMQcMO=fLIURDQ2
+R3
+R0
+R4
+8C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_sqrt_single.v
+FC:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_sqrt_single.v
+!i122 0
+L0 23 4140
+R5
+r1
+!s85 0
+31
+!s108 1669828536.000000
+!s107 C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_sqrt_single.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT|C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_sqrt_single.v|
+!i113 1
+R7
+R8
+R9

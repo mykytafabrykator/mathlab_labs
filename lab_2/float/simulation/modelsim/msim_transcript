@@ -1,0 +1,150 @@
+# Reading pref.tcl
+# do CALC_MODEL_FLOAT_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/Quartus/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT {C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_sqrt_single.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:36 on Nov 30,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT" C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_sqrt_single.v 
+# -- Compiling module nfp_sqrt_single
+# 
+# Top level modules:
+# 	nfp_sqrt_single
+# End time: 19:15:37 on Nov 30,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT {C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_mul_single.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:37 on Nov 30,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT" C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_mul_single.v 
+# -- Compiling module nfp_mul_single
+# 
+# Top level modules:
+# 	nfp_mul_single
+# End time: 19:15:37 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT {C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_atan2_single.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:37 on Nov 30,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT" C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_atan2_single.v 
+# -- Compiling module nfp_atan2_single
+# 
+# Top level modules:
+# 	nfp_atan2_single
+# End time: 19:15:37 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT {C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_add_single.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:37 on Nov 30,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT" C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/nfp_add_single.v 
+# -- Compiling module nfp_add_single
+# 
+# Top level modules:
+# 	nfp_add_single
+# End time: 19:15:37 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT {C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:37 on Nov 30,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT" C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT.v 
+# -- Compiling module CALC_MAGNITUDE_AND_PHASE_FLOAT
+# 
+# Top level modules:
+# 	CALC_MAGNITUDE_AND_PHASE_FLOAT
+# End time: 19:15:37 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT {C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:37 on Nov 30,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT" C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v 
+# -- Compiling module CALC_MAGNITUDE_AND_PHASE_FLOAT_tb
+# 
+# Top level modules:
+# 	CALC_MAGNITUDE_AND_PHASE_FLOAT_tb
+# End time: 19:15:37 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  CALC_MAGNITUDE_AND_PHASE_FLOAT_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" CALC_MAGNITUDE_AND_PHASE_FLOAT_tb 
+# Start time: 19:15:37 on Nov 30,2022
+# Loading work.CALC_MAGNITUDE_AND_PHASE_FLOAT_tb
+# Loading work.CALC_MAGNITUDE_AND_PHASE_FLOAT
+# Loading work.nfp_atan2_single
+# Loading work.nfp_mul_single
+# Loading work.nfp_add_single
+# Loading work.nfp_sqrt_single
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "i_COMPLEX_VALUE_im.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v(337)
+#    Time: 0 ps  Iteration: 0  Instance: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ps  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#INITIAL#335(i_COMPLEX_VALUE_im_fileread) File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 338
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "i_COMPLEX_VALUE_re.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v(412)
+#    Time: 0 ps  Iteration: 0  Instance: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ps  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#INITIAL#410(i_COMPLEX_VALUE_re_fileread) File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 413
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#341 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 347
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#416 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 422
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#341 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 347
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#416 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 422
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#341 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 347
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#416 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 422
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#341 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 347
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#416 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 422
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#341 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 347
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#416 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 422
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#341 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 347
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#416 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 422
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#341 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 347
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#416 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 422
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#341 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 347
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#416 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 422
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#341 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 347
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#416 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 422
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#341 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 347
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#416 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 422
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#341 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 347
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb/#ALWAYS#416 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v Line: 422
+# **************TEST COMPLETED (PASSED)**************
+# ** Note: $stop    : C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v(501)
+#    Time: 160 ns  Iteration: 0  Instance: /CALC_MAGNITUDE_AND_PHASE_FLOAT_tb
+# Break in NamedBeginStat clk_gen at C:/Users/Mykyta/Documents/MATLAB/lab_2/float/CALC_MODEL_FLOAT/CALC_MAGNITUDE_AND_PHASE_FLOAT_tb.v line 501
+# End time: 19:17:38 on Nov 30,2022, Elapsed time: 0:02:01
+# Errors: 24, Warnings: 2

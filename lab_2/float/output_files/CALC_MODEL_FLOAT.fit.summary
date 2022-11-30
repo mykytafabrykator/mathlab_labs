@@ -1,0 +1,20 @@
+Fitter Status : Successful - Wed Nov 30 19:09:16 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : CALC_MODEL_FLOAT
+Top-level Entity Name : CALC_MAGNITUDE_AND_PHASE_FLOAT
+Family : Cyclone V
+Device : 5CSEMA6F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 2,191 / 41,910 ( 5 % )
+Total registers : 4133
+Total pins : 134 / 457 ( 29 % )
+Total virtual pins : 0
+Total block memory bits : 2,989 / 5,662,720 ( < 1 % )
+Total RAM Blocks : 14 / 553 ( 3 % )
+Total DSP Blocks : 10 / 112 ( 9 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0 / 6 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )
