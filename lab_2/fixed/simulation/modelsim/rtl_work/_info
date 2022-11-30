@@ -1,0 +1,110 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/simulation/modelsim
+vatan2_cordic_nw
+Z1 !s110 1669828699
+!i10b 1
+!s100 <KQRD@TF?Y:7lU=0Pm`862
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>EJl;?gX1>SADlfD3U7nf1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1669828614
+8C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/atan2_cordic_nw.v
+FC:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/atan2_cordic_nw.v
+!i122 1
+L0 21 2945
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1669828699.000000
+!s107 C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/atan2_cordic_nw.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL|C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/atan2_cordic_nw.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL
+Z9 tCvgOpt 0
+vCALC_MAGNITUDE_AND_PHASE_FIXED
+R1
+!i10b 1
+!s100 ;hb>^J@MYG1;LzJH;6hLI2
+R2
+IjaPEC076FXFe@aZf4@:5M1
+R3
+R0
+R4
+8C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED.v
+FC:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED.v
+!i122 0
+L0 42 265
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL|C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED.v|
+!i113 1
+R7
+R8
+R9
+n@c@a@l@c_@m@a@g@n@i@t@u@d@e_@a@n@d_@p@h@a@s@e_@f@i@x@e@d
+vCALC_MAGNITUDE_AND_PHASE_FIXED_tb
+R1
+!i10b 1
+!s100 65TZfcJUKVjkIli>BM6D<2
+R2
+I2IF^O`gzIJ4JM6n]zDo2]0
+R3
+R0
+w1669828615
+8C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v
+FC:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v
+!i122 3
+L0 42 458
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL|C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v|
+!i113 1
+R7
+R8
+R9
+n@c@a@l@c_@m@a@g@n@i@t@u@d@e_@a@n@d_@p@h@a@s@e_@f@i@x@e@d_tb
+vSqrt
+R1
+!i10b 1
+!s100 6ZYDV^>A65j<QE:89hmX90
+R2
+IEKbP8@ZGie02PCCLmR=3L3
+R3
+R0
+R4
+8C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/Sqrt.v
+FC:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/Sqrt.v
+!i122 2
+L0 21 3397
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/Sqrt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL|C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/Sqrt.v|
+!i113 1
+R7
+R8
+R9
+n@sqrt

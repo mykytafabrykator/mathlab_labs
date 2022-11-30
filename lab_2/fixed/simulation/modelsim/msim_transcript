@@ -1,0 +1,126 @@
+# Reading pref.tcl
+# do QuartusFixed_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/Quartus/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL {C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:18:19 on Nov 30,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL" C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED.v 
+# -- Compiling module CALC_MAGNITUDE_AND_PHASE_FIXED
+# 
+# Top level modules:
+# 	CALC_MAGNITUDE_AND_PHASE_FIXED
+# End time: 19:18:19 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL {C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/atan2_cordic_nw.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:18:19 on Nov 30,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL" C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/atan2_cordic_nw.v 
+# -- Compiling module atan2_cordic_nw
+# 
+# Top level modules:
+# 	atan2_cordic_nw
+# End time: 19:18:19 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL {C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/Sqrt.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:18:19 on Nov 30,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL" C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/Sqrt.v 
+# -- Compiling module Sqrt
+# 
+# Top level modules:
+# 	Sqrt
+# End time: 19:18:19 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL {C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:18:19 on Nov 30,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL" C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v 
+# -- Compiling module CALC_MAGNITUDE_AND_PHASE_FIXED_tb
+# 
+# Top level modules:
+# 	CALC_MAGNITUDE_AND_PHASE_FIXED_tb
+# End time: 19:18:19 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  CALC_MAGNITUDE_AND_PHASE_FIXED_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" CALC_MAGNITUDE_AND_PHASE_FIXED_tb 
+# Start time: 19:18:19 on Nov 30,2022
+# Loading work.CALC_MAGNITUDE_AND_PHASE_FIXED_tb
+# Loading work.CALC_MAGNITUDE_AND_PHASE_FIXED
+# Loading work.atan2_cordic_nw
+# Loading work.Sqrt
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "i_COMPLEX_VALUE_im.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v(195)
+#    Time: 0 ps  Iteration: 0  Instance: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ps  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#INITIAL#193(i_COMPLEX_VALUE_im_fileread) File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 196
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "i_COMPLEX_VALUE_re.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v(268)
+#    Time: 0 ps  Iteration: 0  Instance: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ps  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#INITIAL#266(i_COMPLEX_VALUE_re_fileread) File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 269
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#199 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 205
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#272 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#199 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 205
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#272 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#199 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 205
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#272 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#199 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 205
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#272 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#199 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 205
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#272 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#199 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 205
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#272 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#199 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 205
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#272 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#199 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 205
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#272 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#199 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 205
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#272 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#199 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 205
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#272 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#199 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 205
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb/#ALWAYS#272 File: C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v Line: 278
+# **************TEST COMPLETED (PASSED)**************
+# ** Note: $stop    : C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v(355)
+#    Time: 160 ns  Iteration: 0  Instance: /CALC_MAGNITUDE_AND_PHASE_FIXED_tb
+# Break in NamedBeginStat clk_gen at C:/Users/Mykyta/Documents/MATLAB/lab_2/fixed/CALC_MODEL/CALC_MAGNITUDE_AND_PHASE_FIXED_tb.v line 355
